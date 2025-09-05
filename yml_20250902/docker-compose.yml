@@ -1,0 +1,12 @@
+services:
+  app:
+    image: ${IMAGE}
+    container_name: my-container
+    stdin_open: true
+    tty: true
+    environment:
+      MYSQL_HOST: ${LINE_GO_DB_HOST_DEV}
+      MYSQL_USER: ${LINE_GO_DB_USER_DEV}
+      MYSQL_PASSWORD: ${LINE_GO_DB_PASSWORD_DEV_ENCODE}
+      MYSQL_DATABASE: ${LINE_GO_DB_DATABASE_DEV}
+      DAILY_LOTTERY_LIST_SUFFIX: _dev

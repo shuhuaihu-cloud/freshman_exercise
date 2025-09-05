@@ -1,0 +1,8 @@
+services:
+  app:
+    environment:
+      UPLOAD_SIZE: 10000
+    volumes:
+      - .:/app
+      - /app/.venv
+      - /app/data
