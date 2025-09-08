@@ -333,3 +333,8 @@ adw_base
     `sincere-strata-288408.feature_store.caravail_by_day` a
 
 ---------
+
+## TODO 20250908
+
+- 和Cathy討論WEEK 1學習歷程的兩道SQL題，討論沒問題後發起會議，把Heisenberg和Shannis加進來
+- 
