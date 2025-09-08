@@ -337,4 +337,9 @@ adw_base
 ## TODO 20250908
 
 - 和Cathy討論WEEK 1學習歷程的兩道SQL題，討論沒問題後發起會議，把Heisenberg和Shannis加進來
-- 
+- 可以先看WEEK 2的任務內容，因為還要組織會議，計劃禮拜三前準備好簡報，並把與會同仁(應該是所有分析師)拉進會議。有空檔要發想下query後結果可以帶來的商業洞見
+- 學習平台上新人訓練的影片都已經完成
+- 列出一些關於之後ML會用到的表格的疑問
+- 回顧下目前學習過的重點：Git工作流、Docker概念、yaml檔和.env檔、uv和makefile、markdown文件撰寫、terminal操作、Python函數與class、認識資料
+- 目前比較不熟的是makefile的內容是怎樣的架構、yaml檔和.env檔什麼時機點會要用到及其區別
+- 隨時接收有關Python的學習規劃
