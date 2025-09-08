@@ -37,7 +37,8 @@ SELECT
     APPROX_QUANTILES(repurchase_days, 4)[OFFSET(2)] AS q2,  -- 50th percentile
     APPROX_QUANTILES(repurchase_days, 4)[OFFSET(3)] AS q3,  -- 75th percentile
     AVG(repurchase_days) AS avg_days,
-    COUNT(acct_id) AS agg_count
+    COUNT(DISTINCT acct_id) AS id_count,
+    COUNT(*) AS agg_count
 FROM intervals
 GROUP BY order_source_desc, cust_gender, age_bucket
 ORDER BY order_source_desc, cust_gender, age_bucket;
