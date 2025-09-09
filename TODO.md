@@ -343,3 +343,11 @@ adw_base
 - 回顧下目前學習過的重點：Git工作流、Docker概念、yaml檔和.env檔、uv和makefile、markdown文件撰寫、terminal操作、Python函數與class、認識資料
 - 目前比較不熟的是makefile的內容是怎樣的架構、yaml檔和.env檔什麼時機點會要用到及其區別
 - 隨時接收有關Python的學習規劃
+
+--------------
+
+## TODO 20250909
+
+- 準備週五的報告，目前和Cathy討論的query結果差不多，先發想我們可以從結果看出怎樣的數據變化模式，提出觀察到的現象
+- 目前SQL共享車的題目是user-based的資料，看每月的用戶數。做做看order-based的版本(單一個人完單頻率變高也是好的)
+- 今天下午的git教學，可能會後可以討論下目前進度
